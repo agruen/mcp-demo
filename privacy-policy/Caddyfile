@@ -21,6 +21,14 @@ handle /health {
 	respond "OK" 200
 }
 
+# RECOMMENDED FOR REAL DEPLOYMENTS: the dashboard at /reporting/ shows
+# user intent data (what people asked the policy). Uncomment to require
+# a password. Generate the hash with: caddy hash-password
+#
+# basicauth /reporting/* {
+# 	admin JDJhJDE0J...your-bcrypt-hash-here
+# }
+
 # MCP server — everything else, including /reporting/ (embedded dashboard)
 handle {
 	reverse_proxy mcp:8080 {

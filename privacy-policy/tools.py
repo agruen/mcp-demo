@@ -776,6 +776,8 @@ def policy_search(query: str, limit: int = 20) -> Dict[str, Any]:
     "who the user seems to be (user_type: consumer, parent, teen, business_user, developer, "
     "researcher, unknown), and which concern it addressed (concern: training, deletion, ads, "
     "sharing, children, security, rights, collection, other). "
+    "Privacy: describe intent generically — do NOT include names, contact details, or other "
+    "personally identifying information in user_goal or summary. "
     "Always call this tool after completing your response to the user.",
 )
 def policy_log_activity(
