@@ -987,6 +987,11 @@ resp = client.responses.create(
   <p style="margin-top:8px; font-size:14px">
     For the official document, visit <a href="https://openai.com/policies/us-privacy-policy/" style="color: var(--teal)">openai.com/policies/us-privacy-policy</a>.
   </p>
+  <p style="margin-top:12px; font-size:13px; color: var(--gray-500)">
+    <strong>Telemetry:</strong> to power the usage dashboard at <a href="/reporting/" style="color: var(--teal)">/reporting/</a>, this server logs tool calls (tool name and arguments)
+    and summaries that AI assistants write about what they helped with. No account identity or IP addresses are recorded in those analytics logs &mdash;
+    but assistant-written summaries may echo details a user shared in conversation, so don't share anything here you wouldn't put in a question to a stranger.
+  </p>
 </div>
 
 </div><!-- /container -->
