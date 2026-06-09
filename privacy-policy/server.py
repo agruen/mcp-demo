@@ -6,6 +6,7 @@ import base64
 from urllib.parse import urlencode
 
 from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, HTMLResponse, RedirectResponse
 import contextlib
 from mcp_server import mcp
@@ -14,6 +15,15 @@ MCP_API_KEY = os.getenv("MCP_API_KEY", "").strip()
 
 _auth_codes: dict = {}
 AUTH_CODE_TTL = 300
+
+
+def _base_url(request: Request) -> str:
+    """Public base URL of this deployment, honoring TLS-terminating proxies
+    that only pass X-Forwarded-Proto (OAuth metadata must advertise https)."""
+    base = str(request.base_url).rstrip("/")
+    if request.headers.get("x-forwarded-proto") == "https" and base.startswith("http://"):
+        base = "https://" + base[len("http://"):]
+    return base
 
 
 @contextlib.asynccontextmanager
@@ -36,27 +46,60 @@ async def mcp_middleware(request, call_next):
     if path.startswith("/mcp") and MCP_API_KEY:
         auth = request.headers.get("authorization", "")
         if auth != f"Bearer {MCP_API_KEY}":
+            metadata_url = f"{_base_url(request)}/.well-known/oauth-protected-resource/mcp"
             return JSONResponse(
                 {"error": "unauthorized"},
                 status_code=401,
-                headers={"WWW-Authenticate": "Bearer"},
+                headers={"WWW-Authenticate": f'Bearer resource_metadata="{metadata_url}"'},
             )
 
     return await call_next(request)
 
 
+# CORS — claude.ai and ChatGPT run OAuth discovery and dynamic client
+# registration from the browser, so the /.well-known/* and /oauth/*
+# endpoints must answer preflights and carry Access-Control-Allow-Origin.
+# Added after mcp_middleware so it sits outside it: preflight OPTIONS
+# requests carry no Authorization header and must not hit the bearer check.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+    expose_headers=["mcp-session-id", "mcp-protocol-version"],
+    max_age=3600,
+)
+
+
 # OAuth 2.1 endpoints
+#
+# Only advertised when MCP_API_KEY is set. With no key the MCP endpoint is
+# open, and publishing discovery metadata anyway sends clients into an OAuth
+# flow the server doesn't need — claude.ai fails connector setup on it.
+# Each well-known route is also served at its path-aware variant
+# (RFC 9728 / RFC 8414): clients derive ".../oauth-protected-resource/mcp"
+# from the resource URL ".../mcp" and try that first.
+
 @app.get("/.well-known/oauth-protected-resource")
+@app.get("/.well-known/oauth-protected-resource/mcp")
+@app.get("/.well-known/oauth-protected-resource/mcp/")
 async def oauth_protected_resource(request: Request):
-    base = str(request.base_url).rstrip("/")
+    if not MCP_API_KEY:
+        return JSONResponse({"error": "not_found"}, status_code=404)
+    base = _base_url(request)
     return {
-        "resource": base,
+        "resource": f"{base}/mcp",
         "authorization_servers": [base],
+        "bearer_methods_supported": ["header"],
     }
 
 @app.get("/.well-known/oauth-authorization-server")
+@app.get("/.well-known/oauth-authorization-server/mcp")
+@app.get("/.well-known/oauth-authorization-server/mcp/")
 async def oauth_metadata(request: Request):
-    base = str(request.base_url).rstrip("/")
+    if not MCP_API_KEY:
+        return JSONResponse({"error": "not_found"}, status_code=404)
+    base = _base_url(request)
     return {
         "issuer": base,
         "authorization_endpoint": f"{base}/oauth/authorize",
@@ -64,22 +107,34 @@ async def oauth_metadata(request: Request):
         "registration_endpoint": f"{base}/oauth/register",
         "response_types_supported": ["code"],
         "grant_types_supported": ["authorization_code", "client_credentials"],
-        "token_endpoint_auth_methods_supported": ["client_secret_post", "client_secret_basic"],
+        "token_endpoint_auth_methods_supported": ["none", "client_secret_post", "client_secret_basic"],
         "code_challenge_methods_supported": ["S256"],
     }
 
 @app.post("/oauth/register")
 async def oauth_register(request: Request):
-    body = await request.json()
-    client_id = secrets.token_urlsafe(16)
-    return JSONResponse({
-        "client_id": client_id,
+    try:
+        body = await request.json()
+    except Exception:
+        body = {}
+    # RFC 7591: omitted token_endpoint_auth_method defaults to client_secret_basic
+    auth_method = body.get("token_endpoint_auth_method", "client_secret_basic")
+    registration = {
+        "client_id": secrets.token_urlsafe(16),
+        "client_id_issued_at": int(time.time()),
         "client_name": body.get("client_name", "mcp-client"),
         "redirect_uris": body.get("redirect_uris", []),
         "grant_types": body.get("grant_types", ["authorization_code"]),
         "response_types": body.get("response_types", ["code"]),
-        "token_endpoint_auth_method": body.get("token_endpoint_auth_method", "client_secret_post"),
-    }, status_code=201)
+        "token_endpoint_auth_method": auth_method,
+    }
+    # Confidential clients must receive a secret. The token endpoint doesn't
+    # check it (the password IS the credential), but a registration response
+    # without one is invalid and clients reject it.
+    if auth_method != "none":
+        registration["client_secret"] = secrets.token_urlsafe(32)
+        registration["client_secret_expires_at"] = 0
+    return JSONResponse(registration, status_code=201)
 
 @app.get("/oauth/authorize")
 async def oauth_authorize_get(
@@ -175,9 +230,9 @@ async def oauth_token(request: Request):
                 _, client_secret = decoded.split(":", 1)
             except Exception:
                 pass
-        if client_secret != MCP_API_KEY:
+        if MCP_API_KEY and client_secret != MCP_API_KEY:
             return JSONResponse({"error": "invalid_client"}, status_code=401)
-        return {"access_token": MCP_API_KEY, "token_type": "bearer"}
+        return {"access_token": MCP_API_KEY or secrets.token_urlsafe(24), "token_type": "bearer"}
 
     elif grant_type == "authorization_code":
         code = form.get("code", "")
@@ -197,7 +252,9 @@ async def oauth_token(request: Request):
             if expected != stored["code_challenge"]:
                 return JSONResponse({"error": "invalid_grant", "error_description": "PKCE failed"}, status_code=400)
 
-        return {"access_token": MCP_API_KEY, "token_type": "bearer"}
+        # With no key configured the middleware accepts any request, but the
+        # token must still be non-empty or clients reject the response.
+        return {"access_token": MCP_API_KEY or secrets.token_urlsafe(24), "token_type": "bearer"}
 
     return JSONResponse({"error": "unsupported_grant_type"}, status_code=400)
 
@@ -223,10 +280,7 @@ async def mcp_docs(request: Request):
 
     # The endpoint URL is derived from however the visitor reached this page,
     # so every deployment (localhost, Pi, your own domain) shows its own URL.
-    base = str(request.base_url).rstrip("/")
-    if request.headers.get("x-forwarded-proto") == "https" and base.startswith("http://"):
-        base = "https://" + base[len("http://"):]
-    mcp_url = f"{base}/mcp/"
+    mcp_url = f"{_base_url(request)}/mcp/"
 
     version = doc.get("semantic_version", "")
     released = doc.get("released_at", "")
