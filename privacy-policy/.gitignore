@@ -1,0 +1,11 @@
+# Local environment
+.env
+
+# Runtime logs (written by the server, read by the dashboard)
+data/logs/*
+!data/logs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

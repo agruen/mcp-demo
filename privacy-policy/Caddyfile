@@ -1,0 +1,41 @@
+# Caddyfile — Reverse proxy for the OpenAI US Privacy Policy MCP
+#
+# Caddy handles:
+#   - TLS termination (auto HTTPS via Let's Encrypt if you set a real domain)
+#   - Request logging
+#   - Proxying to the MCP app (the dashboard is embedded at /reporting/)
+#
+# For Raspberry Pi / local dev, it runs on :80 (no TLS).
+# Set CADDY_DOMAIN env var to enable auto-HTTPS for production.
+
+{
+	# Global options
+	admin off
+}
+
+# Use domain from env, fallback to :80 for local/Pi
+{$CADDY_DOMAIN::80}
+
+# Health check (bypass proxy)
+handle /health {
+	respond "OK" 200
+}
+
+# MCP server — everything else, including /reporting/ (embedded dashboard)
+handle {
+	reverse_proxy mcp:8080 {
+		# Pass through headers for session tracking
+		header_up X-Forwarded-For {remote_host}
+		header_up X-Forwarded-Proto {scheme}
+		header_up X-Real-IP {remote_host}
+
+		# Flush for SSE / streaming MCP transport
+		flush_interval -1
+	}
+}
+
+# Access logging
+log {
+	output stdout
+	format json
+}
