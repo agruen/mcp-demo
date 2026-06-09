@@ -1,0 +1,2238 @@
+AI Guidebook
+
+Version 5.0
+
+CPS Mission:
+
+To provide a high-quality public
+education for every child, in every
+neighborhood, that prepares each
+for success in college, career,
+and civic life.
+
+AI GUIDEBOOK
+
+2
+
+Table of Contents
+I. Introduction
+Purpose
+Scope
+Vision
+AI Principles
+AI Literacy
+AI Basics
+
+II. GenAI Guidance
+General Guidance for All Stakeholders
+Guidance for Students
+Guidance for Parents & Guardians
+Guidance for Educators and Staff
+Guidance for Administrators
+Guidance for ITS
+Guidance for Vendors
+
+III. Approved Generative AI Tools
+IV. Professional Development
+Badge Pathway
+Professional Learning Communities (PLCs)
+
+V. Conclusion
+VI. Appendix
+
+AI GUIDEBOOK
+
+3
+
+I. Introduction
+
+AI GUIDEBOOK
+
+4
+
+Introduction
+
+Introduction
+Chicago Public Schools (CPS) is excited to share
+our guidebook for the responsible adoption of
+artificial intelligence (AI) and generative artificial
+intelligence (GenAI) across our District. AI offers
+unprecedented opportunities to enhance classroom
+interaction, personalize learning experiences,
+and foster an innovative learning environment
+for our students. CPS is committed to integrating
+these tools ethically and responsibly, ensuring
+that they align with our educational goals and
+standards while upholding the safety and privacy
+of our community.
+
+The following document outlines our initial approach
+to AI integration, including guidelines for ethical
+use and pedagogical strategies. This guidebook
+will be regularly reviewed and revised to reflect
+stakeholder input, best practices, and advances
+in AI technology. CPS will also provide faculty and
+staff with continuous professional development
+opportunities to support its implementation. For
+additional information, please visit the CPS AI
+Guidebook website at cps.edu/aiguidebook.
+
+Faculty are encouraged to actively engage with AI
+tools as a means of uncovering new ways of teaching
+and learning, while building students’ AI literacy.
+CPS will support this engagement by providing the
+necessary resources, guidance, and tools to innovate
+responsibly within our educational framework.
+
+AI GUIDEBOOK
+
+5
+
+Introduction
+
+Purpose
+The purpose of the CPS AI guidelines is to ensure
+the legal, ethical, and pedagogically sound use of AI
+technology within the District. This document aims to
+empower staff to responsibly explore and leverage this
+new technology to enhance educational outcomes and
+improve the daily student experience.
+We aim for this document to guide CPS employees in maintaining
+high standards of integrity and compliance when engaging with AI
+technologies, by:
+Defining our District’s vision for AI adoption
+Stating prohibited uses of AI for different stakeholders across the District
+Identifying acceptable uses of AI for planning and instruction along with
+opportunities for professional development
+Clarifying employee responsibilities concerning the use or development
+of AI applications
+This guidance is issued in partnership between the CPS Office of Teaching and Learning and
+Department of Information and Technology Services in accordance with the authority granted
+under the Board’s Information Security Policy, 19-0828-P01. This guidance will be reviewed
+every three months to ensure it remains aligned with technological advancements, changes in
+legal requirements, and feedback from our school communities.
+
+AI GUIDEBOOK
+
+6
+
+Introduction
+
+Scope
+This guidance governs the use of AI applications,
+software, and models by employees, students,
+contractors, volunteers, and third-party vendors.
+It ensures that all interactions with AI technologies are conducted in
+accordance with CPS standards, regardless of the device used, and it
+applies to:
+AI models and applications developed internally, by third parties,
+or obtained from public sources
+The use of AI applications for CPS-related tasks, both inside and
+outside of the classroom
+The handling of CPS information within these applications
+
+AI GUIDEBOOK
+
+7
+
+Introduction
+
+Vision
+In our pursuit of educational excellence and innovation,
+CPS has committed to integrating AI technologies to
+complement our organizational operations, support
+our instructional core, and drive community engagement.
+This strategic adoption of AI aims to enrich learning
+environments and empower our students, educators,
+school leaders, and community members, enhancing
+both teaching and learning experiences.
+This initiative aims to prepare every student for success in a continually evolving
+technological world, while steadfastly upholding the District’s commitment
+to data privacy, security, and academic integrity. By leveraging AI responsibly,
+we aim to enhance educational outcomes and ensure our community is wellprepared to navigate the complexities of the modern world.
+
+AI GUIDEBOOK
+
+8
+
+Introduction
+
+AI Principles
+Our AI Principles provide a
+foundation for the responsible,
+inclusive, and effective use of
+AI in education. Grounded in
+equity, ethics, and continuous
+improvement, these principles
+guide how AI is integrated into
+classrooms, operations, and
+decision-making, ensuring that
+its impact supports students,
+empowers educators, and
+strengthens our communities.
+
+1. Equitable and Accessible
+We are committed to ensuring equitable access
+to AI education and resources for all students,
+educators, and families, regardless of background
+or circumstance.
+We will actively work to bridge the digital divide
+and eliminate barriers to AI literacy, ensuring that
+AI benefits all members of our community.
+We will strive to mitigate bias and discrimination in AI
+systems, promoting inclusive and culturally responsive
+AI applications.
+
+2. Ethical and Transparent
+We will prioritize ethical considerations in the design, development, and implementation of AI
+systems, ensuring fairness, legitimacy, honesty, impartiality, transparency, and accountability.
+We will promote responsible data practices, adhering to privacy-by-design principles, and protect
+the privacy and security of student and staff information.
+ e will ensure that users are informed when they are interacting with AI-enabled systems and,
+W
+where appropriate, explain how AI arrived at its results and the reasoning behind them.
+We will carefully consider the level of explainability and transparency needed in different contexts,
+balancing factors such as intellectual property protection, risk management, and accuracy.
+We will closely monitor the behavior of AI systems to prevent unintended consequences and ensure
+they are used for their intended purpose.
+We will foster collaboration and engagement among students, educators, staff, families, and the
+community to ensure that AI initiatives are developed and implemented in a transparent, inclusive,
+and ethical manner.
+
+AI GUIDEBOOK
+
+9
+
+Introduction
+
+AI Principles
+3. Human-Centered and Socially Beneficial
+We will leverage AI to personalize learning experiences, empower students to take ownership of their
+education, and foster critical thinking and problem-solving skills, while ensuring that AI augments,
+rather than replaces, the essential role of educators.
+ e will ensure that AI solutions are designed to support human goals and objectives, with human
+W
+needs in mind, and that they align with human goals and needs while fostering a positive impact
+on society.
+We will maintain human oversight of AI systems, ensuring that there is always an option for human
+intervention and that AI augments, rather than replaces, human capabilities.
+We will consider the broader societal impact of AI and strive to ensure that its development and
+adoption are socially beneficial, enhancing educational outcomes, promoting equity, and preparing
+students for success in a rapidly evolving world.
+We will empower students to become informed and responsible citizens in an AI-powered world.
+
+4. Continuous Improvement and
+Innovation
+We will foster a culture of innovation
+and continuous improvement, encouraging
+experimentation and exploration of AI’s
+potential to enhance teaching and learning.
+We will remain adaptable and responsive
+to the evolving AI landscape, integrating
+new technologies and best practices as
+they emerge.
+ e will collaborate with external partners,
+W
+including universities, research institutions,
+EdTech nonprofits, and industry leaders, to
+advance AI education and research.
+
+AI GUIDEBOOK
+
+5. Accountable and Sustainable
+We will establish clear lines of accountability
+for the development, deployment, and use
+of AI systems, ensuring ethical conduct in
+their behavior and taking responsibility for
+addressing potential issues.
+We will implement robust testing and
+monitoring programs to ensure that AI
+systems behave as intended and to address
+potential issues proactively.
+We recognize the environmental impact of AI
+models and will actively seek ways to reduce
+their negative effects, such as excessive
+energy and water consumption.
+
+10
+
+Introduction
+
+AI Literacy
+What is AI Literacy?
+AI Literacy represents a comprehensive understanding
+of AI’s capabilities, limitations, ethical implications, and
+societal impact, as represented by these five pillars:
+
+Foundational Knowledge
+Understanding core AI concepts, terminology, and
+different types of AI technologies.
+
+Foundational
+Knowledge
+
+Practical Application
+Developing the skills to effectively and responsibly use
+AI tools, including how to evaluate and integrate them
+into workflows.
+
+Practical
+Application
+
+Ethical Awareness
+Recognizing the ethical considerations including bias,
+fairness, transparency, data privacy, and AI’s impact
+on society.
+
+Ethical
+Awareness
+
+Critical Thinking
+Developing the ability to critically analyze AI-generated
+information, evaluate its reliability, understand its
+limitations, and mitigate potential risks.
+
+Critical
+Thinking
+
+Future-Oriented Perspective
+Understanding the evolving nature of AI and its potential
+to shape the future of education and society by developing
+a growth mindset and a willingness to adapt.
+
+AI GUIDEBOOK
+
+Future-Oriented
+Perspective
+
+11
+
+Introduction
+
+AI Literacy
+Why does AI Literacy Matter?
+Educational Transformation
+The rapid introduction of AI tools into classrooms presents both opportunities
+and challenges. Students must develop critical thinking and digital literacy
+skills to effectively evaluate and utilize AI-generated content, while teachers
+need to adapt their pedagogical approaches to purposefully integrate AI into
+their lessons.
+Career Readiness
+AI is causing significant changes in the job market, making AI literacy
+an essential skill for the future workforce. Traditional job roles are increasingly
+being transformed by the integration of AI tools and technologies. This shift
+necessitates that students and staff acquire AI literacy to thrive in their
+future careers.
+Digital Citizenship
+AI is increasingly prevalent in our daily lives, impacting our decisions in subtle
+and overt ways. It is essential to cultivate information literacy that encompasses
+AI, enabling us to critically evaluate and utilize AI-generated content. Ethical
+considerations must guide our use of AI tools, ensuring that they are used
+responsibly and for the betterment of society. Understanding the broader
+community impact of AI technologies allows us to anticipate and address
+potential consequences, fostering a just and equitable digital future.
+Educational Equity
+AI has the potential to both exacerbate and alleviate existing educational
+inequities. Access to AI tools and training must be universal, ensuring all
+students, regardless of socioeconomic status, background, or location, have
+the opportunity to develop crucial AI literacy skills. Thoughtful implementation
+of AI in education can personalize learning and support diverse learning needs,
+but we must proactively mitigate biases embedded in algorithms and datasets
+to avoid perpetuating or amplifying systemic inequalities.
+
+AI GUIDEBOOK
+
+12
+
+Introduction
+
+AI Basics
+Artificial Intelligence (AI) leverages computing power to mimic human
+cognitive functions such as problem-solving and decision-making. This
+technology encompasses several elements, including learning from data,
+human feedback, and recognizing patterns through machine learning—a
+subset of AI where algorithms enable systems to enhance their performance
+over time without human guidance. AI systems also have the ability to perceive
+and interpret sensory data, using tools like cameras and microphones.
+Generative AI (GenAI) is a subset of artificial
+intelligence. GenAI generates new content—including
+text, audio, code, images, or videos—based on vast
+amounts of “training” data, typically derived from
+the internet. Users are able to request and refine
+specific content via prompts—inputs or queries
+submitted to the model. Such technology not
+only supports creative educational tools but also
+enhances internet search capabilities and word
+processing, offering students and faculty unique
+ways to engage with media.
+
+CPS plans to integrate a variety of GenAI tools
+into our daily operations. Public GenAI tools, such
+as ChatGPT, are freely available to anyone on the
+internet. Internal GenAI tools are restricted to
+specific users within an organization or domain,
+such as Google’s Gemini Enterprise, a paid addon for Google Workspace. We may also engage
+with Vendor GenAI from third-party providers, such
+as Aleks, which require usage and data handling to
+be governed by strict contracts that align with our
+District’s standards and policies.
+
+It is important to address the ethics of AI. Ethical
+AI means developing and deploying these
+technologies with a steadfast commitment to
+fairness, transparency, and accountability, ensuring
+that they positively impact society. This is crucial,
+as biases in AI training data can inadvertently
+perpetuate discrimination. Whether these biases are
+intentional or not, these systems and their outputs
+require rigorous scrutiny and correction.
+
+As CPS embraces the transformative potential
+of GenAI in education, we are excited about the
+possibilities this technology offers for enhancing
+teaching and learning. We recognize the importance
+of maintaining the integrity of our educational
+practices and the originality of human thought. Our
+intent in creating this guidance is to enable staff and
+students to use GenAI to innovate and expand their
+capacity for teaching and learning. We are committed
+to preparing our students for a future in which they
+Moreover, the trustworthiness of outputs from GenAI
+may seamlessly integrate technology and human
+systems is a critical concern, as GenAI models
+creativity, and we encourage our educators and
+can sometimes produce “hallucinations,” false
+students to safely and ethically explore and adopt
+or misleading information that appears correct at
+AI with enthusiasm and confidence.
+first glance. Such outputs require careful review to
+prevent the dissemination of misleading information.
+
+AI GUIDEBOOK
+
+13
+
+II. GenAI Guidance
+
+AI GUIDEBOOK
+
+14
+
+GenAI Guidance
+
+General Guidance for All Stakeholders
+Privacy, Security, and Confidentiality
+When using GenAI tools, it is crucial to understand that
+any information provided—whether through prompts
+entered by the user or AI-generated responses—
+could potentially be used by companies to train their
+models. This includes personal details of students,
+families, employees, and any proprietary or confidential
+information belonging to CPS. Assume that all
+information shared with a GenAI application will be used
+to train the model and could become accessible in the
+public domain.
+To safeguard privacy and maintain confidentiality,
+you should:
+Always inform others when using GenAI tools that may
+impact their data and request their permission before
+doing so (i.e. meeting notetakers). Never input
+personally identifiable information or protected
+health information into GenAI tools.
+Never input confidential, sensitive or legally
+protected information into GenAI tools.
+Legally protected information would include,
+though is not limited to, information contained in a
+student’s record; information that identifies students,
+employees, and other individuals; information contained
+in an employee’s record; proprietary information; etc.
+Never input copyrighted material or proprietary CPS
+intellectual property into GenAI tools.
+Staff: Contact your manager or the IT Service Desk
+at (773) 553-3925 if you are unsure whether information
+you are planning to input falls into any of the above categories.
+
+AI GUIDEBOOK
+
+15
+
+GenAI Guidance
+
+General Guidance for All Stakeholders
+Verification of the GenAI Tool’s Output
+GenAI tools generate outputs based on their training
+from large and diverse data sets, which may include
+publicly available information. These outputs,
+while innovative, can contain fictitious elements
+(“hallucinations”) and may inadvertently include
+copyrighted or proprietary content.
+To ensure responsible use:
+Always verify the accuracy and appropriateness of GenAI content before
+sharing.
+Avoid using any GenAI outputs that might contain copyrighted material without
+clear ownership. This can be accomplished by, for example, examining the work
+for a copyright notice, considering the type of content and source (i.e. content
+issued by the US government is generally public), or referring to websites that
+store public domain works or the Copyright Database.
+
+Bias and Fairness
+AI models reflect the biases present in their training
+data, which can lead to outputs that unintentionally
+perpetuate stereotypes or discrimination. This is contrary to
+CPS’ commitment to diversity, equity, and inclusion.
+To uphold our values:
+
+Conduct thorough reviews to ensure outputs are not only accurate, but also
+free of unintended biases and align with our educational goals.
+Verify and assess the source information that GenAI outputs are relying
+upon.
+Be vigilant of biases in GenAI outputs, particularly when these tools are
+used for decision-making or data analysis.
+By adhering to these guidelines, CPS ensures that GenAI technologies are
+used in a manner that is safe, ethical, and beneficial for our entire community.
+
+AI GUIDEBOOK
+
+If you would like support
+in determining if GenAI
+outputs are demonstrating
+bias or how to correct for it,
+contact the Office of Equity
+at equity@cps.edu.
+
+16
+
+GenAI Guidance
+
+General Guidance for All Stakeholders
+Approved Tools and Permissions
+Approved GenAI tools can be found in the Ed Tech
+Catalog.
+Access to GenAI tools is governed by all relevant federal,
+state, and local laws (FERPA, COPPA, SOPPA, etc.),
+along with District policy. Under SOPPA, all educational
+technology tools, including those that leverage GenAI,
+are reviewed, approved, and listed in the CPS Ed Tech
+Catalog. Parents and guardians must consent for their
+child to use specific GenAI tools through individual school
+opt-out practices. Schools are encouraged to use or
+adapt an existing opt-out form if one already exists. If not,
+this opt-out sample form can be customized.
+
+AI GUIDEBOOK
+
+17
+
+GenAI Guidance
+
+Guidance for Students
+In this section, we outline clear guidelines to ensure that
+our students uphold the values of CPS when using AI.
+
+Approved Tools and Permissions
+Students may only use GenAI tools that have been vetted and approved by CPS,
+as reflected in the CPS Ed Tech Catalog.
+A GenAI tool’s approval within the Ed Tech Catalog is a reflection that it meets
+the District’s standards for privacy, security, and confidentiality in compliance
+with all applicable state and federal laws. However, it does not reflect that the
+tool meets the District’s academic standards for verification, bias, or fairness.
+Students, staff, and guardians should refer to the badges associated with each
+tool to understand when a tool may not meet these standards.
+Students must obtain permission from their teacher before using GenAI tools
+to complete any assignment.
+
+AI GUIDEBOOK
+
+18
+
+GenAI Guidance
+
+Guidance for Students
+Academic Integrity
+While responsible GenAI use can assist in learning,
+students should submit work that is fundamentally their
+own. Students should clearly identify any AI-generated
+content that they have used in their assignments.
+Students are required to cite the use of GenAI in their
+academic work and specify how they used it. Failing to
+do so will be considered a violation of the Student Code
+of Conduct and will be addressed on a case-by-case
+basis according to individual school policy.
+School reviews of each case will generally include:
+Gathering information about the suspected incident, including providing
+the student with an opportunity to explain their actions.
+Making reasonable efforts to contact parents/guardians to discuss
+the incident before assigning consequences.
+Determining consequences based on the needs and rights of all parties.
+
+Ethical Use and Digital Citizenship
+Students must use GenAI tools ethically. Students
+should never use GenAI tools to create inappropriate
+or harmful content. Students must follow the Student
+Acceptable Use Policy whenever they use GenAI tools,
+just as they should when using any other information
+technology resources. Violations of these guidelines,
+including the misuse of AI to generate offensive or
+damaging material, will result in disciplinary actions,
+which may range from a warning to more severe
+penalties depending on the nature of the infraction,
+pursuant to the Student Code of Conduct.
+AI GUIDEBOOK
+
+19
+
+GenAI Guidance
+
+Guidance for Students
+Positive GenAI Use for Students
+In compliance with the copyright guidance shared in
+previous sections, students may want to consider using
+GenAI in the following ways:
+Collaboration
+
+Use GenAI as a brainstorming partner.
+Summarize ideas expressed during a small group discussion.
+Generate timelines and task lists for group projects.
+Synthesize a variety of opinions and propose compromise solutions.
+
+Creativity
+
+Use GenAI image creators to bring ideas to life.
+Create digital media, such as videos and music,
+with GenAI-powered design tools.
+Overcome writer’s block by suggesting a variety of ideas
+and writing prompts.
+Ask GenAI to propose unconventional solutions to problems.
+
+Learning
+
+Generate extra practice questions and study guides to review content.
+Use GenAI as an interactive tutor.
+Use generative search engines like Perplexity as a research assistant
+to gather, summarize, and cite information efficiently.
+Generate immediate feedback on first drafts of written assignments.
+
+AI GUIDEBOOK
+
+20
+
+GenAI Guidance
+
+Guidance for Students
+Monitoring and Consequences
+Usage of GenAI tools will be governed under the
+SOPPA model, wherein teachers are responsible for
+monitoring student use of approved technologies. Misuse
+of GenAI tools will be addressed in accordance with the
+Student Acceptable Use Policy and CPS’ Student Code
+of Conduct, which may include warnings or removal of
+access to tools.
+These guidelines ensure that students at CPS use GenAI
+technologies responsibly, contributing positively to their
+educational environment.
+
+AI GUIDEBOOK
+
+21
+
+GenAI Guidance
+
+Guidance for Parents & Guardians
+AI tools are rapidly evolving, offering both opportunities and challenges
+for students. CPS is committed to integrating these tools in ways that
+prioritize student safety, academic integrity, and responsible use. To achieve
+this, teachers are being trained to incorporate GenAI tools into instruction
+effectively, ensuring they enhance learning while maintaining academic
+rigor. CPS also values open communication and collaboration, encouraging
+parents and guardians to engage in meaningful conversations with their
+children and teachers about the use of GenAI in education. Your insights,
+questions, and concerns are vital as we navigate this evolving landscape
+together. CPS is dedicated to creating a safe, supportive, and innovative
+learning environment where AI tools can enhance educational opportunities
+while respecting family values and promoting ethical practices.
+Age-Appropriate and Approved Tools
+CPS staff ensure that students use GenAI tools
+that are appropriate for their age and maturity level.
+Teachers will adhere to age restrictions and only use
+tools suitable for students. To ensure the safety and
+security of student data, CPS rigorously evaluates all
+educational technology.
+(EdTech) tools. Only tools that meet strict standards
+for data privacy, security, and confidentiality are
+approved for use. The CPS Ed Tech Catalog provides
+a comprehensive list of these vetted tools, along with
+details about their data privacy practices. For more
+information and to view approved GenAI tools, visit
+the CPS Ed Tech Catalog.
+
+CPS expects students to produce original work and
+properly acknowledge any use of AI. Misrepresenting
+AI-generated work as one’s own or unauthorized use
+of GenAI for assignments is considered a violation of
+academic integrity. Such violations will be addressed
+in accordance with the Student Acceptable Use
+Policy and Student Code of Conduct, in addition to
+individual school policies. Discussing these principles
+with your children can help foster a strong sense of
+accountability and responsible online behavior.
+Opt-Out Options
+
+Schools will clearly communicate information
+about the GenAI tools used in classrooms and the
+procedures for opting out if you prefer your child not
+use them. Schools are encouraged to use or adapt
+Responsible Use and Academic Integrity
+an existing opt-out form if one already exists, and a
+CPS promotes responsible digital citizenship and sample that can be customized has been provided
+ethical behavior when using GenAI tools. Students are here. Your participation in this process helps ensure
+expected to respect copyright laws, avoid plagiarism, that your child’s educational experience aligns with
+and refrain from generating inappropriate or harmful your family’s values and preferences.
+content. While GenAI tools can support learning,
+AI GUIDEBOOK
+
+22
+
+GenAI Guidance
+
+Guidance for Educators & Staff
+As educators and staff at CPS, GenAI tools present an
+opportunity to elevate our educational delivery and
+streamline administrative tasks. Guided by the principles
+outlined in our Implementation Framework, we strive
+to harness these technologies in ways that enhance
+efficiency and amplify the educational experiences rooted
+in our high-quality curricular materials.
+
+Ethical and Responsible Use
+As role models, it is imperative that our staff exemplify ethical and responsible
+usage of GenAI tools. This includes maintaining transparency by appropriately
+citing or disclosing the use of GenAI and ensuring the content generated is
+suitable for educational purposes. Additionally, staff must not enter confidential
+data into GenAI tools, including but not limited to student record information,
+confidential employee information, and any identifying information. As a further
+precaution, staff are advised to turn off chat history and data training in the
+settings of any GenAI tool used in their professional practice.
+
+Tool Approval and Use
+Staff members are required to use only GenAI tools that have been vetted and
+approved by CPS, as reflected in the CPS Ed Tech Catalog. A tool’s approval within
+the Ed Tech Catalog reflects that it meets the District’s standards for privacy,
+security, and confidentiality in compliance with all applicable state and federal
+laws. However, it does not reflect that the tool meets the District’s academic
+standards for verification, bias, or fairness. Educators and staff should refer to
+the badges associated with each tool to understand when a tool may not meet
+these standards. This policy ensures that the tools align with our educational
+goals and adhere to our rigorous data privacy and security standards.
+
+AI GUIDEBOOK
+
+23
+
+GenAI Guidance
+
+Guidance for Educators & Staff
+Age Appropriate Usage
+GenAI tools, whether publicly available or subscription
+based, typically set age restrictions in their Privacy Policy
+or Terms and Conditions. Before encouraging your
+students to interact with any tools, make sure to review
+the terms to ensure compliance with them. Below is a list
+of mainstream tools and their respective restrictions for
+your awareness:
+Tool (company)
+
+No Access
+
+Parental Consent
+
+No Permission
+Needed
+
+ChatGPT (OpenAI)
+
+Under 13
+
+Parental consent must be
+obtained for students 13–17
+
+18+
+
+Claude (Anthropic)
+
+Under 18
+
+N/A - no access under 18
+
+18+
+
+Gemini (Google)
+
+N/A
+
+Parental consent must be
+obtained for students
+
+18+
+
+Copilot (Microsoft)
+
+Under 18
+
+N/A - no access under 18
+
+18+
+
+Perplexity
+
+Under 13
+
+Parental consent must be
+obtained for students 13–17
+
+18+
+
+AI GUIDEBOOK
+
+24
+
+GenAI Guidance
+
+Guidance for Educators & Staff
+Monitoring Student Use
+Staff using GenAI tools with students are responsible
+for ensuring that students engage with these
+tools responsibly, maintaining an awareness of
+age limitations and permissions, and clearly
+communicating expectations to students and
+families. School staff should report instances
+of misuse to their principal or designee, and
+be prepared to develop alternate activities that
+do not require the use of GenAI for students
+who lose the privilege of GenAI access or whose
+families do not consent.
+GenAI detection software can be a tool to identify potential plagiarism or AIgenerated work, but staff and administrators are encouraged to use it with
+caution and with awareness of its limitations. These tools are not foolproof
+and can frequently produce false positives, incorrectly flagging student work.
+For example, current AI detection software can disproportionately flag work
+completed by English Learners (ELs) due to linguistic differences or patterns
+that the software misinterprets as AI-generated content. Overreliance on these
+tools could lead to unfounded accusations of academic dishonesty, erode
+trust between teachers and students, and unfairly penalize certain groups
+of students. It is recommended instead to prioritize a holistic assessment of
+student work, considering multiple factors like the writing process, individual
+student progress, and direct conversations, rather than relying solely on
+GenAI detection software in an effort to ensure that students are maintaining
+academic integrity.
+
+AI GUIDEBOOK
+
+25
+
+GenAI Guidance
+
+Guidance for Educators & Staff
+Opportunities to Incorporate GenAI in the Classroom
+As with any new student-facing technology, the
+introduction of GenAI tools invites educators to consider
+how GenAI can further the underlying goals of their
+activities and assignments instead of impeding them.
+Educators may want to consider how activities can be
+modified in the following ways:
+Elementary
+School
+
+Without GenAI
+
+With GenAI
+
+Literacy
+
+Students complete a
+character analysis after
+reading a book
+
+After reading a book, the teacher uses GenAI to create
+an interactive character persona and conducts a
+teacher-led, whole-class “interview” where students can
+ask questions about the character’s motivations and
+feelings during the story.
+
+Math
+
+Teacher uses generic word
+problems provided by the
+curriculum for all students.
+
+Teacher creates customized word problems tailored to
+the current unit of study and individual students’ unique
+needs and interests for intervention and continuing
+practice.
+
+Science
+
+Students research an
+animal species and create
+a poster or presentation
+using images from the
+internet.
+
+Students create prompts describing the habitat, diet,
+and survival adaptations of an animal species, which
+the teacher inputs into an AI image generator to create
+visuals for posters or presentations. Students evaluate
+the accuracy of the images as a whole class or in small
+group discussions.
+
+Social
+Science
+
+Students watch videos
+and complete worksheets
+about the role of
+community leaders.
+
+Students take on the roles of civic leaders and
+participate in a teacher-led discussion in which an AI
+chatbot is prompted to ask students age-appropriate
+questions about how they would set up an ideal
+community.
+
+AI GUIDEBOOK
+
+26
+
+GenAI Guidance
+
+Guidance for Educators & Staff
+Opportunities to Incorporate GenAI in the Classroom
+Middle
+School
+
+Without GenAI
+
+With GenAI
+
+Literacy
+
+Students use various levels
+of background knowledge
+and content understanding
+to make inferences about
+characters’ points of view in
+a story.
+
+Students use GenAI under teacher supervision to
+explore point of view by generating descriptions
+of the plot from various characters in a story
+and comparing/contrasting them in small group
+discussions.
+
+Math
+
+Teacher manually designs
+and delivers interventions for
+individual students.
+
+Students engage with GenAI tutors under teacher
+supervision to target and strengthen developing skills.
+
+Science
+
+Teacher gathers materials
+and sets up physical lab
+equipment for students to
+conduct experiments.
+
+Under supervision, students use GenAI to carry
+out virtual experiments, hypothesizing, and
+testing outcomes without the need of physical lab
+equipment.
+
+Social
+Science
+
+Students write a report
+about their cultural heritage
+
+Students work under teacher supervision with an
+AI image generator to create and critique images
+reflecting their personal cultural heritage, which are
+then shared in presentations or multimedia projects.
+
+AI GUIDEBOOK
+
+27
+
+GenAI Guidance
+
+Guidance for Educators & Staff
+Opportunities to Incorporate GenAI in the Classroom
+High
+School
+
+Without GenAI
+
+With GenAI
+
+Literacy
+
+Students must wait for
+teacher feedback before
+revising an essay or report.
+
+Students use GenAI independently to receive instant
+feedback on the first draft of an essay or report,
+allowing them to immediately move on to revising
+their work.
+
+Math
+
+Students are exposed to
+limited descriptions and
+definitions of complex
+mathematical concepts in a
+lecture or textbook.
+
+Students use GenAI tools independently to explore
+advanced mathematical concepts and ask questions
+until they achieve understanding (e.g., descriptions
+of the types of problems that can be solved using
+derivatives.
+
+Science
+
+Students spend weeks
+conducting research projects
+and conducting physical
+experiments.
+
+Teachers facilitate unsupervised use of GenAI by
+students to conduct in-depth research projects,
+utilizing AI to quickly gather data, analyze results, and
+simulate experiments.
+
+Social
+Science
+
+Students conduct internet
+research on current events.
+
+Students independently use a generative search
+engine to conduct an in-depth analysis of current
+events, exploring a variety of perspectives on the
+issue and synthesizing these into a presentation or
+debate.
+
+Going forward, this guide will be updated to include new
+tools, updated age appropriate guidelines, and examples
+within the District’s Skyline curriculum of activities that
+demonstrate this shift.
+
+AI GUIDEBOOK
+
+28
+
+GenAI Guidance
+
+Guidance for Administrators
+As leaders within Chicago Public Schools, administrators
+play a critical role in overseeing the use and
+governance of Generative AI tools. In addition to
+adhering to all previously outlined guidelines applicable to
+all stakeholders and staff, administrators have additional
+responsibilities to ensure these tools are used ethically
+and effectively.
+
+Enforcement and Oversight
+Administrators are responsible for ensuring that staff and students comply with
+CPS’s GenAI guidelines. Take an active role in enforcing the guidelines, ensuring
+that any deviations are addressed promptly and effectively. This includes
+implementing corrective actions and disciplinary measures as necessary.
+
+Incident Management
+Administrators must be prepared to respond swiftly to any incidents of misuse or
+breach of GenAI guidelines. This includes investigating the issue, understanding
+the impact, and taking appropriate action to mitigate any negative consequences.
+Develop and maintain clear channels for reporting concerns or incidents
+related to GenAI use. Ensure that staff and students are aware
+of how and when to report issues.
+
+Support and Resources
+Ensure that staff have the necessary resources and
+training to use GenAI tools effectively and responsibly.
+This includes facilitating ongoing professional
+development and access to the latest educational
+technologies.
+
+AI GUIDEBOOK
+
+29
+
+GenAI Guidance
+
+Guidance for ITS
+It’s essential to follow standard software engineering
+best practices to minimize potential bias and ensure data
+quality in GenAI models. Our teams must adhere to these
+practices throughout the development and management
+of GenAI software and applications, emphasizing security
+at every stage.
+
+Design and Development
+Ensure all software is secure by design, free from
+vulnerabilities, and continuously evaluated through
+testing, patching, and authentication measures.
+Maintain AI software and related applications in
+a secure, private script repository with version control
+to manage changes effectively.
+
+Vulnerability
+
+Regularly update AI software according to
+patching standards and adhere to the change
+management process for any changes.
+
+Deployment
+Test AI software in the QA & development environment
+to confirm that all changes meet the required
+specifications before deployment in the production
+environment.
+Implement continuous integration (CI) and continuous
+deployment (CD) when possible to automate testing,
+deployment, and monitoring.
+
+Incident
+
+All AI software and applications in the
+production environment must follow incident
+management protocols to handle any issues
+that arise.
+
+Management
+Ensure that staff have the necessary resources
+and training to use GenAI tools effectively and
+responsibly. This includes facilitating ongoing
+professional development and access to the latest
+educational technologies.
+
+AI GUIDEBOOK
+
+Configuration
+Maintain AI software within a configuration
+management system (CMS), which includes
+details on software versions, relationships to
+other configuration items, and their locations.
+
+30
+
+GenAI Guidance
+
+Guidance for ITS
+Monitoring and Noncompliance
+CPS reserves the right to access and monitor the use of AI applications on
+any CPS-issued devices or that appear on CPS-managed networks to ensure
+compliant use of these systems in accordance with the Staff and Student
+Acceptable Use Policies.
+Users who fail to comply with any provision of this guidance may be subject
+to discipline up to and including termination of employment. Violations by
+contractors may be considered a breach of contract and result in removal
+from assignment. Any AI-related activities that appear to violate applicable
+laws will be reported to external law enforcement.
+If monitoring systems and processes detect a possible guideline violation, or
+if a User reports a possible guideline violation, the suspect event should be
+processed using appropriate security incident response processes.
+
+AI GUIDEBOOK
+
+31
+
+GenAI Guidance
+
+Guidance for Vendors
+This section outlines the expectations and guidelines
+for third-party vendors providing AI and GenAI tools
+and services to CPS. Adherence to these guidelines is
+crucial for ensuring the responsible, ethical, and secure
+integration of these technologies within our educational
+environment, aligning with the CPS mission to provide a
+high-quality public education.
+
+Tool Approval and Integration
+All AI EdTech tools provided by vendors must undergo the same rigorous vetting
+and approval process as all EdTech tools used by CPS before they can be used by
+students or with student data. Known as the EdTech Request for Qualifications
+(RFQ), this process is currently available once a year and vendors can sign up for
+notification of future contract opportunities on the CPS Procurement Website.
+Approval signifies that the tool meets the District’s standards for privacy, security,
+and confidentiality in compliance with all applicable federal, state, and local
+laws (FERPA, COPPA, SOPPA, etc.) and District policy.
+Vendors must provide comprehensive documentation regarding their
+tool’s data privacy practices, including how data is collected,
+stored, used, and protected. This information will be a key
+factor in the approval process.
+Vendors should be prepared to provide information
+regarding the age appropriateness of their tools,
+including any age restrictions outlined in their privacy
+policy or terms and conditions.
+
+AI GUIDEBOOK
+
+32
+
+GenAI Guidance
+
+Guidance for Vendors
+Privacy, Security, and Confidentiality
+Vendors must ensure that their AI tools and services are designed and operated
+to protect the privacy and security of all CPS stakeholders, including students,
+families, and employees.
+It is imperative that no personally identifiable information (PII) or protected
+health information is collected, stored, or processed in a manner that goes
+against CPS guidelines and could compromise the privacy of our stakeholders.
+Vendors must ensure that stakeholder information, copyrighted material, or
+proprietary CPS intellectual property is not used to train their models without
+explicit permission.
+Vendors should implement robust security measures to prevent unauthorized
+access, data breaches, and misuse of CPS data. Security by design principles
+should be followed, with continuous evaluation through testing, patching, and
+authentication measures.
+
+Ethical and Responsible Use
+Vendors are expected to develop and deploy AI technologies with a steadfast
+commitment to fairness, transparency, and accountability.
+Efforts should be made to minimize potential bias in AI models, recognizing that
+biases in training data can inadvertently perpetuate discrimination, which
+is contrary to CPS’ commitment to diversity, equity, and inclusion. Vendors
+should strive for algorithmic fairness and be transparent about the potential
+for algorithmic bias.
+It is critical to address the issue of hallucinations, where AI models produce
+false or misleading information. Vendors should have mechanisms in place to
+mitigate these inaccuracies and clearly communicate this potential risk to users.
+ endors should strive for explainable AI, providing insights into how their
+V
+systems work and how decisions are made while promoting a human-in-theloop approach, recognizing that human oversight is essential for responsible
+and effective AI use.
+
+AI GUIDEBOOK
+
+33
+
+GenAI Guidance
+
+Guidance for Vendors
+Support and Collaboration
+Vendors are expected to provide adequate support and resources to CPS staff
+for the effective and responsible use of their AI tools. This includes providing
+training materials, technical support, and ongoing updates.
+ endors should maintain open communication channels with CPS to address
+V
+any concerns, issues, or updates related to their AI offerings. This includes
+collaboration with CPS on professional development initiatives related to their
+specific tools.
+
+AI GUIDEBOOK
+
+34
+
+III. Approved Generative AI Tools
+
+AI GUIDEBOOK
+
+35
+
+A p p rov e d G e n e ra t i v e A I To o l s
+
+Approved Generative AI Tools
+Approved GenAI tools can be found in the Ed Tech Catalog.
+
+AI GUIDEBOOK
+
+36
+
+IV. Professional Development
+
+AI GUIDEBOOK
+
+37
+
+Professional Development
+
+Badge Pathway
+The AI Badge Pathway is a structured program designed to deepen
+individuals’ understanding of AI and its practical applications within CPS.
+Starting with foundational AI principles, the program guides participants to
+select appropriate AI tools based on their needs and desired outcomes, all
+while emphasizing ethical considerations, bias awareness, and responsible
+data practices. Participants learn to develop AI-driven solutions for their
+unique challenges, with each badge aligning with CPS’ strategic goals.
+Ultimately, the Badge Pathway fosters a shared understanding of AI’s
+potential to impact CPS and the wider world.
+
+1
+
+2
+
+3
+
+AI Foundations Badge
+
+AI Explorer Badge
+
+AI Innovator Badge
+
+(SY26 Quarter 2)
++ AI Foundations Badge
+
+(SY26 Quarter 3)
++ AI Explorer Badge
++ AI Foundations Badge
+
+AI GUIDEBOOK
+
+38
+
+Professional Development
+
+Professional Learning Communities
+AI Professional Learning Communities (PLCs) are
+collaborative groups within CPS where educators and
+staff learn, integrate, and grow with AI tools. These
+PLCs provide structured spaces for sharing experiences,
+discussing challenges, and exchanging best practices
+around AI implementation. Participants engage in
+ongoing, hands-on learning to develop their AI literacy,
+focusing on ethical considerations, data privacy, and
+effective usage within CPS’ systems. All stakeholders
+are eligible to participate in the PLCs following their
+completion of the CPS AI Foundations Badge, ensuring
+that everyone has the basic foundational knowledge
+necessary to engage in meaningful and impactful
+conversations with their peers.
+Continuous Support
+Ensures continuous support for educators as AI tools evolve, enabling
+them to leverage AI for enhanced instruction, streamlined assessments,
+and data-informed decisions.
+Digital Communities
+Leverages digital platforms to foster a culture of shared
+knowledge and collective problem-solving to build
+confidence and proficiency in AI usage.
+Monthly Webinars
+Offers monthly webinar-style training sessions to
+introduce new AI developments and maintain a
+focus on continuous improvement.
+
+AI GUIDEBOOK
+
+39
+
+V. Conclusion
+
+AI GUIDEBOOK
+
+40
+
+Conclusion
+
+Conclusion
+As we implement the policies outlined above
+throughout the 2024–2025 school year, we will gather
+valuable insights and experiences that may prompt us
+to refine and adjust our policies and approaches. CPS is
+committed to fully integrating GenAI for the 2025–2026
+school year. Our implementation of GenAI is guided by
+a commitment to ethical use, responsible innovation,
+and the continuous improvement of our educational
+practices. As we move forward, we will maintain an open
+dialogue within our school community, ensuring that our
+policies evolve to reflect our collective experiences and
+the ever-changing landscape of educational technology.
+For additional information, please visit the CPS AI
+Guidebook website at cps.edu/aiguidebook.
+
+AI GUIDEBOOK
+
+41
+
+VI. Appendix
+
+AI GUIDEBOOK
+
+42
+
+Appendix
+
+Steering Committee
+The educational landscape is rapidly evolving, and CPS is committed to
+equipping our students and staff with the tools and knowledge to thrive
+in the age of AI. To guide this effort, CPS has established an AI Steering
+Committee, a cross-governing body that meets bi-weekly to ensure a holistic
+and equitable approach to GenAI across the District. This committee is
+dedicated to developing a District-wide framework that provides access to
+AI resources for teachers, students, and Central Office departments, all while
+prioritizing data security and responsible implementation.
+Name
+
+Title
+
+Office/Department
+
+Charles Mayfield
+
+Chief Operating Officer
+
+Chief Operating Office
+
+Miroslava Krug
+
+Chief Financial Officer
+
+Finance
+
+Annise Lewis
+
+Deputy Chief Teaching and Learning
+
+Teaching and Learning
+
+Edward Wagner
+
+Chief Information Technology Officer
+
+Information and Technology Services
+
+Leticia Lopez
+
+Deputy Chief Procurement Officer
+
+Procurement and Contracts
+
+Kimberly Watson
+
+Chief of Staff to the COO
+
+Chief Operating Office
+
+Elizabeth Barton
+
+Managing Deputy General Counsel
+
+Law Office
+
+Arba Houlden
+
+Executive Director, IT Business Partnership and
+Innovation
+
+IT Business Partnerships and Innovation
+
+Sree Sundaram
+
+Executive Director, Enterprise Application Services
+
+Enterprise Application Services
+
+Helena SwansonNystrom
+
+Executive Director, Curriculum, Instruction
+and Digital Learning
+
+Curriculum, Instruction and Digital Learning
+
+Robert Coonce
+
+Director, Web Services
+
+Web Services
+
+Sarah Siderius
+
+Operations and Initiatives Director
+
+Office of the CIO
+
+Shruti Saxena
+
+Program Director
+
+Talent
+
+Jessica Wright
+
+Executive Assistant
+
+Information and Technology Services
+
+Charlotte Cager
+
+Engagement Specialist Team Lead
+
+Information and Technology Services
+
+Lorne Rodriguez
+
+Manager, Enterprise Generative AI
+
+Information and Technology Services
+
+AI GUIDEBOOK
+
+43
+
+Appendix
+
+Instructional Practice Subcommittee
+Chair: Helena Swanson-Nystrom
+Name
+
+Title
+
+Office/Department
+
+Alexander Fishman
+
+Digital Learning Design and Instructional GenAI
+Manager
+
+Curriculum, Instruction, and Digital
+Learning
+
+Angela Sims
+
+Executive Director, T&L Professional Learning
+
+T&L Professional Learning
+
+Carmen Velez
+
+Instructional Support Leader
+
+Network 2
+
+Corey Morrison
+
+Director, Mathematics
+
+STEM Programs
+
+Jane Fleming
+
+Director, Literacy
+
+Literacy
+
+Juman Kekhia
+
+Mgr, OSD Instructional Support
+
+Students with Disabilities
+
+Joseph Olsen
+
+Data Quality Mgmt Team Lead
+
+Early College and Career
+
+Jennifer Brooks
+
+Professional Learning Specialist
+
+Chief Equity Office
+
+Kristan Beck
+
+Director, Computer Science
+
+STEM Programs
+
+Kara Thorstenson
+
+Director, Digital Learning and Libraries
+
+Curriculum, Instruction, and Digital
+Learning
+
+M Ari Frede
+
+School CIWP Specialist
+
+Network Support
+
+Michelle Rabkin
+
+Director, Science
+
+STEM Programs
+
+Peter Leonard
+
+Executive Director, Assessment
+
+Student Assessment and MTSS
+
+Scott Topel
+
+Instructional Support Leader
+
+Network 6
+
+Timothy Jackson
+
+Social and Emotional Learning Specialist
+
+Early College and Career
+
+Vivian Redwood
+
+Instructional Support Leader
+
+Network 9
+
+Whitney Carson
+
+EL Instructional Device Specialist
+
+Multicultural/Lingual Education
+
+Yvette Vazquez
+
+Instructional Support Leader
+
+Network 15
+
+AI GUIDEBOOK
+
+44
+
+Appendix
+
+Operational Efficiency Subcommittee
+Chair: Shruti Saxena
+Name
+
+Title
+
+Office/Department
+
+Alexandra Lopez
+
+Director, Accountability and Engagement
+
+Family and Community Engagement
+
+Antoinette Henley
+
+Director, Central Office Budget Management
+
+Budget and Management Office
+
+Bryan Forero
+
+Director, Procurement Category Management
+
+Procurement and Contracts
+
+Chinuotu Wonuigwe
+
+Director, Transport Diverse Learner
+
+Student Transportation
+
+Deivi Aguilar
+
+Principal
+
+Alexander Graham School
+
+Ebany Guerra
+
+Audit Associate
+
+Internal Audit and Advisory Service
+
+Edith Juarez
+
+Office Manager
+
+Student Protections/Title IX
+
+Grace Solomon
+
+Assistant General Counsel
+
+Law Office
+
+Hilda Flores
+
+Executive Director, Payroll Services
+
+Payroll Services
+
+Jose Prieto
+
+Financial Compliance Manager
+
+Accounting
+
+Jessica Morris
+
+Director, IT Business Partnership
+
+IT Business Partnerships and
+Innovation
+
+Kandace Stallings
+
+Social and Emotional Lrng Spec
+
+Early College and Career
+
+Kimberly Watson
+
+Chief of Staff to the COO
+
+Chief Operating Office
+
+Leslie Kniskern
+
+Senior Project Manager
+
+Talent Office
+
+Samantha Semrow
+
+Project Manager
+
+Planning and Data Management
+
+AI GUIDEBOOK
+
+45
+
+Appendix
+
+Development, Data Management, and
+Analytics Subcommittee
+Chair: Robert Coonce
+Name
+
+Title
+
+Office/Department
+
+Alahrie Aziz-Sims
+
+Principal
+
+Bogan HS
+
+Agnes Juarez
+
+Instructional Support Leader
+
+Network 8
+
+Chiranjeevi Galla
+
+SQL Server DBA Manager
+
+Web Services
+
+Deepa Govind
+
+Manager, Web Development
+
+Web Services
+
+Davis Jedd
+
+Audit Associate
+
+Internal Audit and Advisory Service
+
+Guadalupe Blanco
+
+Data Strategist
+
+City Wide Early Childhood
+
+Gregory Edwards
+
+Senior Software Engineer
+
+Web Services
+
+Jordan Radford
+
+Assistant General Counsel
+
+Law Office
+
+Kelly Rosiles-Villagomez
+
+Senior Data Analyst
+
+Students with Disabilities
+
+Kishasha Ford
+
+Director, Local School Council Relations
+
+Family and Community Engagement
+
+Patrick Kelly
+
+Instructional Support Leader
+
+Network 9
+
+Robert Coonce
+
+Director, Web Services
+
+Web Services
+
+Annette Wallace
+
+Software Engineer
+
+Web Services
+
+Steven Vega
+
+Senior Software Engineer
+
+Web Services
+
+Tihomir Canji
+
+Manager, Web Production
+
+Web Services
+
+Zahra Naqi-Hasnain
+
+Data Strategist
+
+Chief Equity Office
+
+AI GUIDEBOOK
+
+46
+
+School Leader AI Coalition
+
+Appendix
+
+Co-Chairs: Casey Fuess, Althea Hammond, Alexander
+Zalar
+Name
+
+Title
+
+Office/Department
+
+Alexander Zalar
+
+Principal
+
+Ernst Prussing School
+
+Alexandra Dakessian
+
+Assistant Principal
+
+John T Mccutcheon School
+
+Althea Hammond
+
+Principal
+
+Ambrose Plamondon School
+
+Andrea Kulas
+
+Assistant Principal
+
+Peace and Education Coalition
+
+Barton Dassinger
+
+Principal
+
+Cesar Chavez Multicultural Academy
+
+Casey Fuess
+
+Assistant Principal
+
+Virtual Academy
+
+Christopher Graves
+
+Principal
+
+Jordan Community School
+
+Clarisa Bravo-Ruiz
+
+Assistant Principal
+
+Sidney Sawyer School
+
+Eileen Scanlan-Peterson
+
+Principal
+
+George Cassell Elementary
+
+Javier Arriola-Lopez
+
+Principal
+
+Rachel Carson Elementary
+
+Jeff Finelli
+
+Principal
+
+Edison Park Elementary
+
+Jessica Johnson
+
+Principal
+
+Manuel Perez Elementary
+
+Kamilah Hampton
+
+Principal
+
+Richard J Daley Academy
+
+Latisha Dillard
+
+Assistant Principal
+
+John L Marsh School
+
+Leonel Gallegos
+
+Assistant Principal
+
+Roger C Sullivan High School
+
+Melissa Resh
+
+Principal
+
+Wildwood IB World Magnet
+
+Rachael Carnacchio
+
+Principal
+
+Abraham Lincoln School
+
+Rhea Bush
+
+Principal
+
+Mark Skinner School
+
+Shontell Smith
+
+Principal
+
+Joseph Warren School
+
+Terri Kelly
+
+Assistant Principal
+
+Thomas Drummond School
+
+Tonya Weatherly
+
+Principal
+
+Martha M Ruggles School
+
+Virag Nanavati
+
+Principal
+
+David G Farragut Career Academy
+
+Yadira Guzman
+
+Principal
+
+John Greenleaf Whittier School
+
+Zachary Korth
+
+Principal
+
+Morton School of Excellence
+
+AI GUIDEBOOK
+
+47
+
+Appendix
+
+Glossary
+A
+
+B
+
+Algorithm: A set of step-by-step instructions that a Bias: When an AI system unfairly favors certain
+computer follows to complete a task.
+groups or produces results that are prejudiced.
+This can happen if the data used to train the AI is
+Algorithmic Bias: This refers to the potential for AI
+incomplete or reflects existing biases in society.
+systems to perpetuate or amplify existing biases due
+to biased training data or flawed algorithms, resulting
+C
+in unfair or discriminatory outcomes.
+Chain-of-Thought (COT) Prompting: A prompting
+Artificial Intelligence (AI): The ability of a computer strategy that asks an AI tool to think step-by-step,
+or machine to mimic human intelligence (e.g., learn, which can produce a better result for logical and
+reason, solve problems).
+mathematical reasoning tasks.
+AI Ethics: Guidelines for developing and using AI
+in a responsible and ethical way, ensuring fairness, D
+Data: Information, such as facts, numbers, and text,
+safety, and respect for everyone.
+that is used to train AI systems.
+AI Literacy: Involves the knowledge, skills, and
+attitudes necessary to interact with AI in a safe and Dataset: A large collection of organized information
+effective way. This includes understanding how AI (like text, images, or numbers) used to train an AI
+works, recognizing its potential benefits and risks, model.
+evaluating AI systems for bias and fairness, and Data Privacy: Protecting the personally identifiable
+developing the skills to use AI tools effectively and information (PII) of students, teachers, and families
+critically in teaching and learning responsibly.
+when using digital tools, including AI tools.
+ I Model: A computer program trained on a dataset
+A
+to recognize patterns and perform specific tasks.
+
+Digital Citizenship: Responsible and ethical use of
+technology, encompassing online safety, privacy,
+AI Safety: Measures taken to ensure AI systems critical thinking, and respectful interactions in the
+are used in ways that prevent harm to individuals digital world.
+or society. This can encompass data privacy, bias
+E
+mitigation, and responsible development.
+Explainable AI: AI systems should be designed
+AI Tool: AI-powered software that can automate or in a way that allows students and educators to
+assist users with a variety of tasks (e.g., AI-powered understand how they work and how decisions are
+writing assistants, tutoring programs, or assessment made. This includes providing clear explanations
+tools).
+of the factors considered and the logic used in the
+decision-making process.
+
+AI GUIDEBOOK
+
+48
+
+Appendix
+
+Glossary
+F
+
+M
+
+G
+
+N
+
+Few-Shot Prompting: A prompting strategy that
+includes two or more examples of the desired input
+and output.
+
+Generative AI (GenAI): A type of AI that can create
+new content, such as text, images, music, or code.
+
+H
+
+ achine Learning (ML): A subset of AI focused on
+M
+developing computer programs that can analyze
+data to make decisions or predictions.
+
+Natural Language Processing (NLP): A field of AI
+that enables machines to understand, interpret, and
+generate human language.
+
+Hallucination: Any inaccurate or misleading output O
+from an AI tool. These can be presented as facts by One-Shot Prompting: A prompting strategy that
+the AI tool, further elevating the need to properly vet includes one example of the desired input and output.
+the outputs before using them more broadly.
+Output: The information or creative work that an
+Human-in-the-Loop: An understanding that AI tool produces after it is prompted, such as an
+humans should always be involved in the AI answer to a question, a text summary, an image,
+process, providing guidance, feedback, or making or a piece of music.
+final decisions to ensure the AI is used responsibly
+and effectively.
+P
+Prompt: The method for interacting with an AI tool
+in the form of a request, question, snippet, or an
+example.
+
+I
+
+I nternal GenAI: These are restricted for use
+within a specific organization or domain and
+Public GenAI: These tools are available for anyone to
+may require payment. One example is Google’s
+use on the internet, such as Gemini Chat, ChatGPT,
+Gemini Enterprise, which is an add-on for Google
+Claude, or Perplexity.
+Workspace.
+
+R
+
+L
+
+Reinforcement Learning: A type of ML that provides
+Large Language Model (LLM): An AI model that is
+feedback to a program to improve its decisions
+trained on large amounts of text to identify patterns
+over time.
+between words, concepts, and phrases in order to
+generate effective responses to prompts.
+
+AI GUIDEBOOK
+
+49
+
+Appendix
+
+Glossary
+S
+
+Supervised Learning: A type of ML that uses
+labeled datasets to train a program to recognize
+patterns in data.
+
+T
+
+Transparency: Being open and honest about
+how AI systems are trained and how they work to
+students, families, and the community, including
+being clear about when and how AI is used in the
+classroom.
+
+U
+
+Unsupervised Learning: A type of ML that uses
+unlabeled datasets to allow a program to identify
+patterns in data without a specific output in mind.
+
+V
+
+Vendor GenAI: This type of GenAI is provided by
+third-party vendors which CPS may contract with to
+ensure data handling and usage align with District
+standards and policies. It is important for CPS to
+carefully vet any vendors to ensure alignment with
+District values and data privacy standards.
+
+Z
+
+Zero-Shot Prompting: A prompting strategy that
+doesn’t include any examples about the desired
+input and output.
+
+AI GUIDEBOOK
+
+50
+
+Appendix
+
+Version History
+Version 5.0
+
+Updated August 2025
+Edits
+Fixed Broken links & minor formatting issues
+
+Version 4.0
+
+Updated July 2025
+Edits
+Updated guide to adhere to accessibility standards including ensuring
+correct color contrast, increasing minimum type size, configuring paragraph
+styles for correct header and paragraph tagging, adding alt text to images,
+tagging design elements as artifacts, tagging and formatting tables for
+screen readers, increasing footer type size, and adding paragraph spacing
+into styling.
+Reconfigured some layouts, images, and design elements to be more
+consistent across the document.
+Added School Leader AI Coalition table to appendix
+
+Version 3.0
+
+Updated May 2025
+New Sections
+Our AI Principles, AI Literacy, Guidance for Vendors, AI Subcommittees
+Edits
+Steering Committee: Introduction and and member details
+Badge Pathway
+AI Explorer: SY25 Quarter 3 to SY25 Quarter 4
+AI Innovator: SY25 Quarter 4 to SY26 Quarter 1
+
+AI GUIDEBOOK
+
+51
+
+Appendix
+
+Version History
+Version 2.0
+
+Updated January 2025
+Removals
+Guidance for Educators & Staff
+Entire section: Ongoing Professional Development
+Additions
+AI Guidance: Privacy, Security, and Confidentiality
+Always inform others when using GenAI tools that may impact their data
+and request their permission before doing so (i.e. meeting notetakers).
+New Sections
+Guidance for Parents/Guardians
+Professional Development
+Appendix
+Edits
+Guidance for Educators and Staff
+Tool (company)
+
+No Access
+Under 18
+
+Gemini (Google)
+
+Under 13
+
+Parental Consent
+
+No Permission Needed
+
+No access under 18
+Parental consent must be obtained for students 18+
+13–17
+
+Version 1.0
+
+Updated July 2024
+
+AI GUIDEBOOK
+
+52
+
+cps.edu
+Version 5.0, last updated August 2025
+
+

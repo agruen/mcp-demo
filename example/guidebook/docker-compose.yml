@@ -1,0 +1,38 @@
+# docker-compose.yml — CPS AI Guidebook MCP + Analytics Dashboard
+#
+# The dashboard is embedded in the MCP server at /reporting/ — no
+# separate container or reverse-proxy rule needed.
+#
+# SETUP:
+#   1. Copy .env.example to .env and edit your domain/ports
+#   2. Run: docker compose up --build -d
+#   3. Point NPM at port 8080 only (MCP + dashboard)
+#
+# After first build, just: docker compose up -d
+# Rebuild after code changes: docker compose up --build -d
+
+services:
+  # --- MCP Server (includes analytics dashboard at /reporting/) ---
+  mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      network: host
+    ports:
+      - "${MCP_PORT:-8080}:8080"
+    volumes:
+      - ./data/logs:/var/log/mcp
+    environment:
+      - PORT=8080
+      - CPS_GUIDEBOOK_JSON_PATH=/app/data/cps-ai-guidebook.json
+      - MCP_LOG_DIR=/var/log/mcp
+      - PUBLIC_HOST=${PUBLIC_HOST:-}
+      - MCP_API_KEY=${MCP_API_KEY:-}
+      - MAX_LOG_LINES=${MAX_LOG_LINES:-10000}
+      - DASH_EMBEDDED=1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/healthz')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

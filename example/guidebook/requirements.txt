@@ -1,0 +1,26 @@
+# Core MCP server
+mcp>=1.9.1
+fastapi
+gunicorn
+uvicorn
+httpx
+pydantic
+sse-starlette
+
+# Utilities
+python-dotenv>=1.0.0
+PyYAML
+tenacity
+
+# Token estimation (optional — falls back to heuristic if unavailable)
+tiktoken
+
+# Analytics dashboard (embedded at /reporting/)
+dash>=4.0.0
+plotly>=5.18.0
+pandas>=2.0.0
+
+# Testing
+pytest
+pytest-asyncio
+pytest-mock
