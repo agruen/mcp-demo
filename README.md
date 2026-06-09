@@ -322,6 +322,7 @@ Steps 1 and 2 are where the human judgment lives — schema design and intent de
 
 ```
 README.md                                ← this lesson
+presentation.md                          ← the slide deck (iA Presenter format)
 openai-com-policies-us-privacy-policy.md ← the source document
 privacy-policy/                          ← the server built in this lesson
   data/openai-us-privacy-policy.json     ←   structured policy data
