@@ -131,7 +131,7 @@ One FastAPI app serving:
 | `/mcp/` | The MCP endpoint (what assistants connect to) |
 | `/` | A self-documenting web page — live stats from the JSON, connection instructions per platform, example questions, tool reference. *This page is your demo slide.* |
 | `/reporting/` | The analytics dashboard (Part 3.2) |
-| `/oauth/*`, `/.well-known/*` | OAuth 2.1 with PKCE — so claude.ai and ChatGPT can connect through their standard auth flows. Set `MCP_API_KEY` to require a password; leave it empty for an open server. |
+| `/oauth/*`, `/.well-known/*` | OAuth 2.1 with PKCE — so claude.ai and ChatGPT can connect through their standard auth flows. Set `MCP_API_KEY` to require a password; leave it empty for an open server (with no key set, the `/.well-known/*` discovery endpoints return 404 so assistants connect without an OAuth handshake). |
 | `/healthz` | For Docker healthchecks |
 
 The docs page builds its connection URLs from the request, so whatever domain *you* deploy on shows up automatically.
