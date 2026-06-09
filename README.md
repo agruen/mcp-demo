@@ -245,11 +245,20 @@ docker compose up --build -d
 
 ### Putting it on the public internet
 
-Assistants need HTTPS. The included [`Caddyfile`](privacy-policy/Caddyfile) gives you automatic Let's Encrypt TLS:
+Assistants need HTTPS. Two paths, depending on whether you already run a reverse proxy:
+
+**Already have a reverse proxy?** (Nginx Proxy Manager, an existing Caddy, Traefik…) — skip the bundled Caddyfile. The compose file only runs the MCP container on port 8080; just add a proxy host for your domain pointing at it. Four things make it work:
+
+1. **Proxy the whole host** to port 8080, not just `/mcp` — the OAuth flow needs `/.well-known/*` and `/oauth/*` at the domain root, and you want `/` (docs) and `/reporting/` (dashboard) too.
+2. **Set `PUBLIC_HOST=privacy.your-domain.com` in `.env`** and restart — MCP transport security validates the Host header, and without this you'll get `Invalid host header` errors.
+3. **Don't buffer responses** — MCP streamable HTTP uses server-sent events. In Nginx Proxy Manager: enable *Websockets Support*, and add `proxy_buffering off;` plus `proxy_read_timeout 300s;` in the proxy host's Advanced tab. (Caddy needs `flush_interval -1`, which the bundled file already sets.)
+4. **Pass `X-Forwarded-Proto`** (NPM and Caddy do by default) so generated URLs say `https`.
+
+**No proxy yet?** The included [`Caddyfile`](privacy-policy/Caddyfile) gives you automatic Let's Encrypt TLS:
 
 1. Point a DNS A record at your box (e.g., `privacy.your-domain.com` → your Pi / VPS).
-2. Run Caddy with `CADDY_DOMAIN=privacy.your-domain.com`, proxying to the `mcp` container.
-3. Set `PUBLIC_HOST=privacy.your-domain.com` in `.env` (this allow-lists the host for MCP transport security) and restart.
+2. Run Caddy with `CADDY_DOMAIN=privacy.your-domain.com`. (If Caddy runs on the host rather than inside the compose network, change the upstream from `mcp:8080` to `localhost:8080`.)
+3. Set `PUBLIC_HOST=privacy.your-domain.com` in `.env` and restart.
 4. Optional: set `MCP_API_KEY=some-password` to require auth — assistants will prompt for it through the OAuth flow.
 
 In the class demo, the instructor does exactly this on workingpaper.co hosting.

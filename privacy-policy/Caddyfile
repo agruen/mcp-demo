@@ -1,12 +1,22 @@
 # Caddyfile — Reverse proxy for the OpenAI US Privacy Policy MCP
 #
-# Caddy handles:
+# THIS FILE IS OPTIONAL. docker-compose only runs the MCP container,
+# exposed on port 8080. If you already run a reverse proxy (Nginx Proxy
+# Manager, an existing Caddy, Traefik, nginx), skip this file and point
+# your proxy at port 8080 instead — see "Already have a reverse proxy?"
+# in the README.
+#
+# If you DON'T have a proxy, this Caddyfile gives you one. It handles:
 #   - TLS termination (auto HTTPS via Let's Encrypt if you set a real domain)
 #   - Request logging
 #   - Proxying to the MCP app (the dashboard is embedded at /reporting/)
 #
 # For Raspberry Pi / local dev, it runs on :80 (no TLS).
 # Set CADDY_DOMAIN env var to enable auto-HTTPS for production.
+#
+# Upstream address: "mcp:8080" works when Caddy runs as a service in the
+# same docker compose network as the mcp container. If you run Caddy
+# directly on the host instead, change it to "localhost:8080".
 
 {
 	# Global options
